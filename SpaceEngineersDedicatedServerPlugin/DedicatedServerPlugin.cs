@@ -5,7 +5,7 @@ using VRage.Plugins;
 
 namespace SpaceEngineersDedicatedServerPluginExample
 {
-    public class DedicatedServerPlugin : IPlugin
+    public class DedicatedServerPlugin : IConfigurablePlugin
     {
         private PluginConfiguration m_configuration;
 
